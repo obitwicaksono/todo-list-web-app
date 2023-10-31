@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list-app</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="parent-container">
+        <div class="container">
+            <div class="wrap-header">
+                <div class="header">
+                    <p class="p-header">Todo App</p>
+                </div>
+            </div>
+            <form class="form-wrap-input-todo">
+                <div class="wrap-input-todo">
+                    <div class="input-todo">
+                        <p class="p-input-todo">input your todo list</p>
+                        <input type="text" class="input-input-todo">
+                    </div>
+                    <button class="submit-button">submit</button>
+                </div>
+            </form>
+            <div class="wrap-todo-list">
+                <div class="todo-list">
+                    <ul class="list-group" id="todo-list">
+                        <li class="todo-item">
+                            your todo list
+                            <a href="#" class="delete-todo-item">delete</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear-all-todo-list">
+                <button class="clear-clear-all-todo-list">clear all todo list</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

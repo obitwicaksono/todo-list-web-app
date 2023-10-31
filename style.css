@@ -1,0 +1,126 @@
+*, html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container {
+    width: 35%;
+    height: 95vh;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: scroll;
+  }
+
+.wrap-header {
+    height: 55px;
+    overflow: visible;
+    background-color: #1b1b1b;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .header {
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 5px 15px;
+    background-color: blue;
+    border-radius: 5px;
+  }
+
+  
+  .wrap-input-todo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  }
+
+  .input-todo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    padding: 30px 100px 0px 100px;
+  }
+
+  .p-input-todo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .input-input-todo {
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  .submit-button {
+    font-size: 20px;
+    margin: 20px 190px 0px 190px;
+  }
+
+
+  .todo-list {
+    color: white;
+    font-size: 20px;
+    padding: 30px 60px;
+  }
+  
+  .list-group {
+    /* padding: 5px 10px 5px 10px; */
+  }
+
+  .todo-item {
+    padding: 12px 12px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #1b1b1b;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    margin-bottom: 18px;
+  }
+
+  .delete-todo-item {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(235, 25, 25);
+    font-size: 18px;
+    padding: 2px 8px 0px 8px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .clear-all-todo-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .clear-clear-all-todo-list {
+    font-size: 18px;
+    padding: 0px 5px;
+  }
