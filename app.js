@@ -2,11 +2,11 @@ const formInputTodo = document.querySelector(".form-wrap-input-todo");
 const inputTodo = document.querySelector(".input-input-todo");
 const todoList = document.querySelector(".list-group");
 const deleteTodoItem = document.querySelector(".delete-todo-item");
-const clearAllTodos = document.querySelector(".submit-button")
+const clearAllTodos = document.querySelector(".clear-clear-all-todo-list")
 
 formInputTodo.addEventListener("submit", addTodo);
 todoList.addEventListener("click", deleteTodo);
-todoList.addEventListener("click", deleteAllTodos)
+clearAllTodos.addEventListener("click", deleteAllTodos);
 
 function addTodo(e) {
   e.preventDefault();
